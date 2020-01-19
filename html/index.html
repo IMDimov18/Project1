@@ -15,33 +15,69 @@ color:#3651EB;
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  
+  margin:0px;
+  padding:0;
+  overflow: hidden;
+  background-color: #006EFF;
 }
 
 li {
+  width: 370px;
   float: left;
+  text-align: center;
 }
-li a {
-  display: inline;
-  color: white;
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  background-color: #031024;
 }
 
-li a:hover {
-  background-color: #111;
+.dropbtn:hover,.dropdown-content a:hover {
+
+    -webkit-transition: color 0.8s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.8s;
+  }
+
+  .dropbtn:hover,.dropdown-content a:hover {
+    color: white;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0d0d0d;
+    min-width: 360px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 </style>
 <body>
 <ul>
+  <b>
   <li><a href="#home">Home</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#about">About</a></li>
+  </b>
 </ul>
 <center><h1>Our water supplies</h1></center>
 <center><h2>What are ours water supplies?</h2></center>
