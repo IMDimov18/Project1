@@ -1,0 +1,46 @@
+body{
+  background-image: url('ocean.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+ul {
+  list-style-type: none;
+  margin:-8px;
+  padding:0;
+  overflow: hidden;
+  opacity: 1;
+}
+li {
+  width: 370px;
+  text-align: center;
+    float: left;
+}
+.nav{
+  position: left;
+  overflow: hidden;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  width:350px;
+}
+.nav1{
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  width:350px;
+}
+.nav2{
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  width:350px;
+}
+.nav3{
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  width:350px;
+}
