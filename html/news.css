@@ -12,9 +12,14 @@ ul {
   opacity: 1;
 }
 li {
-  width: 370px;
-  text-align: center;
-    float: left;
+float:left;
+padding:13px;
+}
+li a{
+	  display: inline;
+  padding: 10px;
+  text-decoration:none;
+  color:black;
 }
 .nav{
   position: left;
