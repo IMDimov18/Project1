@@ -39,6 +39,10 @@ padding:13px;
 .column{
 	 border: 5px solid #000000;
 	 width:500px;
+	 float:right;
+}
+.img{
+	float:left;
 }
 li a{
 	  display: inline;

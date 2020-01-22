@@ -29,13 +29,23 @@ div.text{
  border-radius: 25px;
   border: 5px solid #000000;
 width:500px;
+float:left;
 
 }
 div.text1{
  border-radius: 25px;
   border: 5px solid #000000;
 width:600px;
+float:right;
 }
+div.text2{
+	border-radius: 25px;
+  border: 5px solid #000000;
+width:600px;
+}
+.textall{
+}
+
 div.nav{
   position: left;
   overflow: hidden;
