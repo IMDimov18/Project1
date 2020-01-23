@@ -9,15 +9,13 @@
     <b>
     <li><a href="index.html">Home</a></li>
     <li><a href="news.html">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
     </b>
   </ul>
   </div>
 <center><h1>News</h1></center>
 <center><img src="news1.jpg"></center>
 <center><p>Jokowi needs to implement strategic moves to transform Indonesia’s ambition as a maritime power. Here’s how to do it</p></center>
-<div class="WWF">
 <div class="img">
 <img src="../images/WWF.jpg">
 </div>
@@ -25,6 +23,10 @@
 <div class="text">
 <b><p>To benefit both people and nature, WWF advocates for and supports organizations to become responsible water stewards. At the global level, we work on projects to establish an international water stewardship standard through the Alliance for Water Stewardship. We also support the use of water footprinting tools with the Water Footprint Network and promote other international initiatives with the United Nations’ CEO Water Mandate and the World Economic Forum. At the local level, WWF conducts projects that measure water use and river basin impacts and demonstrate solutions for reducing these impacts. WWF partners with businesses and industries to identify water risks and take advantage of opportunities to enhance water stewardship.</p></b>
 </div>
+<div class="button">
+<center><button onclick="myFunction()">Show More</button></center>
+</div>
+<div id="WWF">
 <div class="img1">
 <img src="../images/water.jpg">
 </div>
@@ -39,5 +41,16 @@
 <div class="text2">
 <b><p>WWF works to address institutional challenges to managing water resources and protecting habitats before the worst impacts of climate change occur. This work includes promoting climate change adaptation in international conventions and supporting the preservation and restoration of wetlands. We help conduct assessments of river basins’ vulnerabilities to climate change and integrate climate change considerations into river basin management.</p></b>
 </div>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("WWF");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </body>
 <html>
