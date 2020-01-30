@@ -1,5 +1,5 @@
 body{
-  background-image: url('ocean.jpg');
+  background-image: url('../images/ocean.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -43,7 +43,7 @@ li a:hover{
 }
 .head{
 	
-}
+}	
 .img{
 	width:1200px;
 	height:150px;
@@ -75,12 +75,17 @@ li a:hover{
   margin-right: auto;
   width: 50%;
 }
+.text0{
+	font-size:20px;
+	text-align:center;
+}
 .text2{
 	font-size:20px;
 	text-align:center;
 }
 .button{
-	 background-color: #4CAF50;
+	text-align:center;
+  background-color: #0066ff;
   border: none;
   color: white;
   padding: 15px 32px;

@@ -11,7 +11,7 @@ button {
     font-size: 18px;
   }
  body {
-  background-image: url('ocean.jpg');
+  background-image: url('../images/ocean.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
